@@ -1,20 +1,12 @@
 const path = require('path');
 const express = require('express');
 const fs = require('fs');
+// const pug = require('views/index.pug');
 
+// const compiledFunction = pug.compileFile('index.pug')
 const app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
-
-// app.get('/', function(req, res, next){
-//   res.writeHead(200, {'Content-Type': 'text/html'})
-//   res.send('index.html');
-// });
-
-
-// app.get('/', function(req, res) {
-//   res.json(app.index);
-// })
 
 
 app.use(function(req, res, next) {
