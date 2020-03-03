@@ -6,6 +6,10 @@ const fs = require('fs');
 // const compiledFunction = pug.compileFile('index.pug')
 const app = express();
 
+app.get('views/index.pug', function (req, res) {
+  res.render('index', { title: 'Hey', message: 'Hello there!' })
+})
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 
