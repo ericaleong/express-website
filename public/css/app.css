@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt|Taviraj&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ECE5F0;
+  overflow-x: hidden;
+
+  /* animation: change 20s infinite; */
+}
+
+/* @keyframes change{
+  0%{background-color: #EFD7D7;}
+  25%{background-color: #ECEFD7;}
+  50%{background-color: #D7EFE5;}
+  75%{background-color: #D7DCEF;}
+  100%{background-color: #E6D7EF;}
+} */
+
+header {
+  padding: 0;
+  margin-left: 2em;
+}
+
+.hey, .im-erica {
+  font-family: 'Prompt', sans-serif;
+  color: #003B36;
+  -webkit-text-fill-color: #ECE5F0;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #003B36;
+  
+}
+
+.hey {
+  font-size: calc(80px + (280 - 80) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.im-erica {
+  margin-top: -4vw;
+  margin-bottom: 10vh;
+  font-size: calc(80px + (200 - 80) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.portrait {
+float: right;
+margin-top: 10vh;
+margin-right: 3vw;
+width: 35%;
+}
+
+a{
+  margin: 0;
+  padding-left: 4vw;
+  padding-right: 100vw;
+
+  text-decoration: none;
+
+  font-size: calc(70px + (100 - 70) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'Prompt', sans-serif;
+  color: #003B36;
+  -webkit-text-fill-color: #ECE5F0;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #003B36;
+}
+
+a:hover {
+  background-color: #E98A15;
+  color: #003B36;
+  -webkit-text-fill-color: #003B36; 
+
+  /* transform: translateX(200px); */
+  transition: all 0.5s linear;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
