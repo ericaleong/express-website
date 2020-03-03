@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt|Taviraj&display=swap');
+/* Reset and consisstency for background color */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ECE5F0;
+}
+
+
+
+/* Header Style for all pages */
+.header {
+  text-align: center;
+  font-size: calc(80px + (150 - 80) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'Prompt', sans-serif;
+  color: #003B36;
+  -webkit-text-fill-color: #ECE5F0;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #003B36;
+}
+
+
+
+/* Navigation Bar Style for all pages */
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin: 0;
+
+  background-color: #59114D;
+}
+
+li {
+  list-style: none;
+
+  padding: 3vh 5vw;
+
+  font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+li:hover {
+  background-color: #003B36;
+  color: #ECE5F0;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Prompt', sans-serif;
+  color: #E98A15;
+  letter-spacing: 0.5vw;
+}
+
+nav a:hover {
+  color: #ECE5F0;
+}
+
+
+
+/* Styles for any paragraph on any page */
+p {
+  padding: 5vw;
+
+  text-align: center;
+  font-family: 'Taviraj', serif;
+}
+
+
+
+/* Styles for any link on any page */
+main a{
+  margin: 5vw;
+  display: block;
+  text-align: center;
+}
+
+
+
+/* Projects page styles */
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  padding: 4vw;
+}
+
+.project h1 {
+  color: #003B36;
+  font-family: 'Prompt', sans-serif;
+  text-transform: uppercase;
+}
+
+
+
+/* Contact page styles*/
+.contact {
+  margin: 10vh 15vw;
+  background-color: #012622;
+
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+}
+
+.contact h1 {
+  padding-top: 5vh;
+  font-size: 25px;
+  color: #E98A15;
+}
+
+.contact p {
+  padding: 0;
+  color: #ECE5F0;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+label {
+  color: #ECE5F0;
+  text-transform: uppercase;
+}
+
+input{
+  padding: 2vh 10vw;
+}
+
+textarea {
+  padding: 0vh 8vw;
+}
+
+
+
+/* Footer Style */
+footer {
+  padding: 3vh;
+
+  background-color: #012622;
+  color: #E98A15;
+  font-family: 'Prompt', sans-serif;
+  font-size: 12px;
+}
