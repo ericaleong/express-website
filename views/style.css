@@ -1,26 +1,31 @@
-/* NOTE: Some of these styles won't apply to this project, but I took it from my portflio website */
-
 @import url('https://fonts.googleapis.com/css?family=Prompt|Taviraj&display=swap');
 /* Reset and consisstency for background color */
 body {
   margin: 0;
   padding: 0;
-  background-color: #ECE5F0;
+  background-color: #D8CBC7;
 }
+
 
 
 /* Header style */
 h1 {
   text-align: center;
-  text-align: center;
+  text-transform: uppercase;
   font-size: 48px;
   font-family: 'Prompt', sans-serif;
-  color: #003B36;
+  color: #19231A;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  color: #19231A;
 }
 
 
 
-/* Navigation Bar Style for all pages */
+/* Navigation Bar Style*/
 ul {
   display: flex;
   flex-direction: row;
@@ -28,7 +33,7 @@ ul {
 
   margin: 0;
 
-  background-color: #59114D;
+  background-color: #9A6D38;
 }
 
 li {
@@ -40,7 +45,7 @@ li {
 }
 
 li:hover {
-  background-color: #003B36;
+  background-color: #CC3F0C;
   color: #ECE5F0;
 }
 
@@ -48,7 +53,7 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Prompt', sans-serif;
-  color: #E98A15;
+  color: #D8CBC7;
   letter-spacing: 0.5vw;
 }
 
@@ -58,92 +63,28 @@ nav a:hover {
 
 
 
-/* Styles for any paragraph on any page */
+/* Styles for any paragraph */
 p {
   padding: 5vw;
 
   text-align: center;
   font-family: 'Taviraj', serif;
-}
-
-
-
-/* Styles for any link on any page */
-main a{
-  margin: 5vw;
-  display: block;
-  text-align: center;
-}
-
-
-
-/* Projects page styles */
-section {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.project {
-  padding: 4vw;
-}
-
-.project h1 {
-  color: #003B36;
-  font-family: 'Prompt', sans-serif;
-  text-transform: uppercase;
-}
-
-
-
-/* Contact page styles*/
-.contact {
-  margin: 10vh 15vw;
-  background-color: #012622;
-
-  text-align: center;
-  font-family: 'Prompt', sans-serif;
-}
-
-.contact h1 {
-  padding-top: 5vh;
-  font-size: 25px;
-  color: #E98A15;
-}
-
-.contact p {
-  padding: 0;
-  color: #ECE5F0;
-}
-
-form {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-
-}
-
-label {
-  color: #ECE5F0;
-  text-transform: uppercase;
-}
-
-input{
-  padding: 2vh 10vw;
-}
-
-textarea {
-  padding: 0vh 8vw;
+  font-size: 24px;
+  color: #19231A;
 }
 
 
 
 /* Footer Style */
 footer {
-  padding: 3vh;
+  margin: 0;
+  padding: 2vh;
 
-  background-color: #012622;
+  background-color: #33673B;
+}
+
+footer p {
   color: #E98A15;
   font-family: 'Prompt', sans-serif;
-  font-size: 12px;
+  font-size: 16px;
 }
