@@ -11,17 +11,23 @@ body {
 
 /* Header style */
 h1 {
+  margin: 0;
+  background-color: #E98A15;
+
   text-align: center;
   text-transform: uppercase;
   font-size: 48px;
   font-family: 'Prompt', sans-serif;
   color: #19231A;
+  letter-spacing: 0.5vw;
 }
 
 h2 {
   text-align: center;
   font-family: 'Prompt', sans-serif;
-  color: #19231A;
+  font-size: 30px;
+  color: #CC3F0C;
+  letter-spacing: 0.5vw;
 }
 
 
@@ -46,7 +52,7 @@ li {
 
 li:hover {
   background-color: #CC3F0C;
-  color: #ECE5F0;
+  color: #D8CBC7;
 }
 
 a {
@@ -85,7 +91,7 @@ footer {
   font-size: 16px;
 }
 
-/* To override other paragraph styles */
+/* To override other paragraph styles*/
 footer p {
   padding: 0;
   margin: 0;
