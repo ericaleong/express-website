@@ -7,9 +7,9 @@ const pageInfo = {
     title: 'About Page',
     description: 'Coming soon... A page about pugs and how adorable they are',
   },
-  projects: {
-    title: 'Projects',
-    description: 'Coming soon... A page on pugs doing projects',
+  gallery: {
+    title: 'Gallery',
+    description: 'Coming soon... A gallery on pugs',
   },
   contact: {
     title: 'Contact Page',
