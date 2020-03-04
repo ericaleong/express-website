@@ -3,11 +3,13 @@ const express = require('express');
 const pageInfo = require('./pageInfo');
 const fs = require('fs');
 
+
 const app = express();
+
 
 app.set('view engine', 'pug');
 
-
+app.locals.moment = require('moment');
 
 
 app.get('/', function(request, response){
@@ -22,11 +24,9 @@ app.get('/contact', function(request, response){
   response.render('contact', pageInfo.contact);
 });
 
-app.get('/projects', function(request, response){
-  response.render('projects', pageInfo.projects);
+app.get('/gallery', function(request, response){
+  response.render('gallery', pageInfo.gallery);
 });
-
-
 
 
 app.use(express.static(path.join(__dirname, 'public')));
