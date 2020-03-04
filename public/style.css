@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Prompt|Taviraj&display=swap');
-/* Reset and consisstency for background color */
+
+
+/* Reset and consistency for background color */
 body {
   margin: 0;
   padding: 0;
   background-color: #D8CBC7;
 }
-
 
 
 /* Header style */
@@ -24,8 +25,7 @@ h2 {
 }
 
 
-
-/* Navigation Bar Style*/
+/* Navigation Bar style*/
 ul {
   display: flex;
   flex-direction: row;
@@ -62,7 +62,6 @@ nav a:hover {
 }
 
 
-
 /* Styles for any paragraph */
 p {
   padding: 10vw;
@@ -74,8 +73,7 @@ p {
 }
 
 
-
-/* Footer Style */
+/* Footer style */
 footer {
   margin: 0;
   padding: 2vh;
@@ -87,6 +85,7 @@ footer {
   font-size: 16px;
 }
 
+/* To override other paragraph styles */
 footer p {
   padding: 0;
   margin: 0;
